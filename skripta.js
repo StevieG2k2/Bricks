@@ -92,10 +92,10 @@ function drawIt() {
 	}
 
 	function initbricks() { //inicializacija opek - polnjenje v tabelo
-	  NROWS = 12;
-	  NCOLS = 20;
+	  NROWS = 10;
+	  NCOLS = 15;
 	  BRICKWIDTH = WIDTH/NCOLS;
-	  BRICKHEIGHT = 24;
+	  BRICKHEIGHT = 35;
 	  PADDING = 1;
 	  maxTocke = NROWS * NCOLS;
 	  bricks = new Array(NROWS);

@@ -5,7 +5,7 @@
 }
 .swal-size{
     width:850px !important;
-    height:200px !important;
+    height:250px !important;
 }
 #container{
    width: 100%;
@@ -21,13 +21,8 @@ body{
 }
 
 canvas{
-	padding: 0;
-	margin: auto;
-	display: block;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	padding: 0;	
+	margin-top: 70px;
 	background-color:rgba(100,100,100,0.5);
 }
 p{
@@ -36,6 +31,9 @@ p{
 @font-face{
 	font-family:'PressStart2P';
 	src:url('PressStart2P-Regular.ttf');
+}
+#naslov{
+	color:yellow;
 }
 #stats{
 	background-color:white;
