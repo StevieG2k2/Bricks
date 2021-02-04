@@ -25,7 +25,7 @@ function drawIt() {
 	var padw;
 	var padm = 5;
 	var x = 500;
-	var y = 680;
+	var y = 690;
 	var rightDown = false;
 	var leftDown = false;
 	$(document).keydown(onKeyDown);
@@ -93,7 +93,7 @@ function drawIt() {
 
 	function initbricks() { //inicializacija opek - polnjenje v tabelo
 	  NROWS = 10;
-	  NCOLS = 15;
+	  NCOLS = 12;
 	  BRICKWIDTH = WIDTH/NCOLS;
 	  BRICKHEIGHT = 35;
 	  PADDING = 1;
@@ -199,6 +199,7 @@ function drawIt() {
 			  title: 'Konec Igre',
 			  text: "Število doseženih točk:"+tocke+", Končni čas:"+izpisTimer,
 			  confirmButtonText: 'Igraj ponovno',
+		      confirmButtonColor: 'blue', 
 			  imageWidth: 700,
 			  imageHeight: 500,
 			}).then((result) => {
@@ -216,6 +217,7 @@ function drawIt() {
 			  title: 'Čestitamo!',
 			  text: "Dosegli ste vse točke. Končni čas: "+izpisTimer,
 			  confirmButtonText: 'Igraj ponovno',
+			  confirmButtonColor: 'blue', 
 			  imageWidth: 700,
 			  imageHeight: 500,
 			}).then((result) => {

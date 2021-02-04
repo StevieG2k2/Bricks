@@ -18,9 +18,9 @@
 		  </div>
 		</div>
 		<div id="stats">
-				<p id="t">Točke: <b id="tocke" style="color:black">0</b></p>
-				<p>Čas: <b id="cas">00:00</b></p>
-			</div>
+			<p id="t">Točke: <b id="tocke" style="color:black">0</b></p>
+			<p>Čas: <b id="cas">00:00</b></p>
+		</div>
 		<div id="container">
 			<h1 id="naslov">Zlate Opeke</h1>
 			<canvas id="canvas" width="1000" height="700" ></canvas>
@@ -30,15 +30,17 @@
 		<script>
 			Swal.fire({
 			  customClass: 'swal-size',
+			  confirmButtonText: 'Igraj',
 			  title: 'Navodila',
 			  text: 'Pritisni tipko SPACE, da začneš igro. Uporabljaj miško ali puščici LEVO in DESNO za premikanje.',
 			  imageWidth: 500,
 			  imageHeight: 200,	
-			  confirmButtonColor: 'blue',	  
+			  confirmButtonColor: 'blue', 
 			})
 	function navodila(){
 		Swal.fire({
 		  customClass: 'swal-size',
+		  confirmButtonText: 'Igraj',
 		  title: 'Navodila',
 		  text: 'Pritisni tipko SPACE, da začneš igro. Uporabljaj miško ali puščici levo in desno za premikanje.',
 		  width: 700,

@@ -26,7 +26,8 @@ canvas{
 	background-color:rgba(100,100,100,0.5);
 }
 p{
-	text-align:left;
+	text-align:center;
+	margin-top: 15px;
 }
 @font-face{
 	font-family:'PressStart2P';
@@ -36,17 +37,24 @@ p{
 	color:yellow;
 }
 #stats{
-	background-color:white;
+	background: url('stajl.png');
+	background-size: 200px,70px;
+	
+	background-color:yellow;
 	position:absolute;
 	top:0px;
 	right:0px;
-	padding: 2px;
-	width:170px;
+	padding: 10px;
+	width:180px;
+	height:80px;
 }
 #gumb {
-  background-color: red;
+  background: url('stajl.png') no-repeat; 
+	background-size: cover;
+	
+  background-color: #D2D201;
   position:0px,0px;
-  color: white;
+  color: black;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -58,9 +66,11 @@ p{
 }
 
 .dropdown-content {
+	background: url('stajl.png') no-repeat; 
+	background-size:cover;
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: yellow;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -73,8 +83,14 @@ p{
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #FF4449;}
+.dropdown-content a:hover {
+	background-color: #FF4449;
+}
 
-#dropdown:hover .dropdown-content {display: block;}
+#dropdown:hover .dropdown-content {
+	display: block;
+}
 
-#dropdown:hover .dropbtn {background-color: #3e8e41;}
+#dropdown:hover #gumb {
+	background-color: red;
+}
