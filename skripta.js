@@ -24,8 +24,8 @@ function drawIt() {
 	var padh;
 	var padw;
 	var padm = 5;
-	var x = 450;
-	var y = 595;
+	var x = 500;
+	var y = 680;
 	var rightDown = false;
 	var leftDown = false;
 	$(document).keydown(onKeyDown);
